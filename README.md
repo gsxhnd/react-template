@@ -1,3 +1,3 @@
-# React-Example
+# React Template
 
-reactjs typescript less
+reactjs react-router react-redux typescript less vite
