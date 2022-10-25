@@ -2,8 +2,17 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "./assets/vite.svg";
 import "./App.less";
+import { userLogin } from "./api/user";
 
 function App() {
+  const testC = async () => {
+    console.log("this is");
+    await userLogin()
+      .then(() => {})
+      .catch((e) => {
+        console.error("user login failed, error: ", e);
+      });
+  };
   return (
     <div className="App">
       <div>
@@ -23,6 +32,7 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+      <button onClick={testC}>Activate Lasers</button>
     </div>
   );
 }
