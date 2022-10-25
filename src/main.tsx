@@ -7,7 +7,7 @@ import store from "./redux/store";
 
 import App from "./App";
 import ErrorPage from "./ErrorPage";
-import "./index.css";
+import "./index.less";
 
 const router = createBrowserRouter([
   {
