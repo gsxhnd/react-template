@@ -5,11 +5,13 @@ reactjs react-router react-redux typescript less vite
 ```text
 .
 ├── public
-│   └── vite.svg
+│   └── robots.txt
 ├── src
+│   ├── api
 │   ├── assets
 │   ├── redux
 │   ├── routes
+│   ├── utils
 │   ├── App.less
 │   ├── App.tsx
 │   ├── ErrorPage.tsx
