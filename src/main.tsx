@@ -3,10 +3,9 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Provider } from "react-redux";
 
-import store from "./redux/store";
-
 import App from "./App";
-import ErrorPage from "./ErrorPage";
+import store from "./redux/store";
+import ErrorPage from "./pages/ErrorPage";
 import "./index.less";
 
 const router = createBrowserRouter([
